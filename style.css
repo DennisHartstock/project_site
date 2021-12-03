@@ -1,13 +1,15 @@
 body {
   padding: 0 30px;
-  font-size: 14px;
-  line-height: 22px;
-  font-family: "Georgia", serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Arial", sans-serif;
   color: #222222;
+
+  background: #ffffff url("img/bg-page.png") no-repeat top center;
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 36px;
   line-height: normal;
 }
 
@@ -16,93 +18,58 @@ h2 {
   line-height: normal;
 }
 
-nav {
-  color: #888888;
-}
-
-aside {
-  margin: 20px 0;
-  color: #c4c4c4;
-}
-
-pre,
-code {
-  font-family: "Courier New", "Courier", monospace;
-  color: #6a2cce;
-}
-
-pre {
-  line-height: normal;
-}
-
-blockquote {
-  padding-left: 14px;
-  border-left: 2px solid #6a2cce;
-
-  color: #6a2cce;
-}
-
-cite {
-  color: #222222;
-}
-
-time {
-  color: #6a2cce;
-}
-
-a[href] {
+a {
   color: #0099ef;
-  text-decoration-line: underline;
+  text-decoration: underline;
 }
 
-.days {
+.avatar {
+  border-radius: 50%;
+}
+
+.blog-navigation {
+  margin-bottom: 30px;
+  padding: 20px;
+
+  background-color: #4470c4;
+  border: 5px solid #2d508f;
+
+  color: #ffffff;
+}
+
+.blog-navigation h2 {
+  margin-top: 0;
+}
+
+.blog-navigation ul {
   list-style: none;
   padding-left: 0;
 }
 
-figure {
-  margin-left: 0;
-  margin-right: 0;
+.blog-navigation li {
+  margin-bottom: 5px;
 }
 
-figure img {
-  vertical-align: middle;
-  border: 8px solid rgb(202, 224, 248);
+.blog-navigation a {
+  color: #ffffff;
 }
 
-figcaption {
-  width: 502px;
-  padding-bottom: 8px;
+.skills dd {
+  margin: 0;
+  margin-bottom: 10px;
+
+  background-color: #e8e8e8;
+}
+
+.skills-level {
   font-size: 12px;
-  letter-spacing: 0.02em;
-  font-style: italic;
   text-align: center;
-  background-color: rgb(202, 224, 248);
+  color: #ffffff;
+  background-color: #4470c4;
 }
 
-.pagination a {
-  display: inline-block;
-  margin-right: 30px;
-  margin-bottom: 15px;
-}
-
-.pagination {
-  text-align: center;
-  color: #888888;
-}
-
-.danger-text {
-  color: #ff4400;
-}
-
-.danger-block {
-  padding: 5px 10px;
-  background-color: #ffd0bf;
-}
-
-.no-danger-block {
-  padding: 5px 10px;
-  background-color: #c6f5f0;
+.skills-level-ok {
+  background-color: #47bb52;
 }
 
 footer {
